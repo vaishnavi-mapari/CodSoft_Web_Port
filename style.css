@@ -1,0 +1,156 @@
+/* Apply general styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, section, footer {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* Style the header */
+header {
+    text-align: center;    
+    background-color: #C23373;
+  height: 20%;
+}
+
+header h1 {
+    font-size: 2em;
+}
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+  }
+/* ////........Navbar.......//// */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+  }
+  
+  .menu-items {
+    display: flex;
+  }
+  
+  .menu-items li {
+    list-style: none;
+    padding: 1rem;
+  }
+  
+  .menu-items a {
+    text-decoration: none;
+    color: #f0f0e6;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+  }
+  
+  .menu-items a:hover {
+    border-bottom: 2px solid #f0f0e6;
+  }
+  
+  .navbar .logo {
+    order: 1;
+    color: #f0f0e6;
+    font-size: 2rem;
+  }
+  
+/* Style the about section */
+.about-me {
+    background-color: #F6635C;
+    padding: 6rem 0;
+  }
+  
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Style the projects section */
+.projects{
+    background-color: rgb(44, 155, 247);
+}
+#projects .project {
+    margin-bottom: 20px;
+
+}
+
+#projects .project h3 {
+    font-size: 1.2em;
+}
+
+#projects .project img {
+    width: 10%;
+    border-radius: 5px;
+}
+
+/* Style the skills section */
+.skill {
+    background-color: #0f4577;
+
+  }
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    margin-bottom: 5px;
+}
+
+/* Style the contact section */
+.contact-me {
+    background: #79155B;
+    position: relative;
+    
+}
+#contact p {
+    margin: 5px 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Style links globally */
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.resumes{
+    background-color: #FFBA86;
+}
